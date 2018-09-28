@@ -22,6 +22,7 @@ If you take a look at the dataset, you'll see that it is a mix of binary and con
 ## Finding optimal K
 
 In order to find an optimal K, all odd values from 1 to 50 were tried out when fitting the model. The smallest error rate was found at K = 37, but if you take a look at the graph, you could probably get a similar result by using 17, which is less computationally intensive.
+
 ![Finding optimal K value](https://github.com/henryginter/KNN_Taiwan/blob/master/K.png)
 
 ## Conclusion
