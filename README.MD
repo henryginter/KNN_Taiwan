@@ -1,6 +1,7 @@
 # KNN_Taiwan
 Hi! With a purpose to practice my machine learning skills, I downloaded a dataset from here:
 https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+
 The dataset was used for an article "The comparisons of data mining techniques for the predictive  accuracy of probability of default of credit card clients" by I-Cheng Yeh and Che-hui Lien.
 In the study they compared the performance of 6 different classification methods:
 K-nearest neighbor, Logistic regression, Discriminant analysis, Naive Bayenesian, Neural networks and Classification trees. They concluded that "neural network is the only one that can accurately estimate the real probability of default."
@@ -13,7 +14,7 @@ If you take a look at the dataset, you'll see that it is a mix of binary and con
 
 **X2**: Gender (1 = male; 2 = female).  - **Replaced 2 with 0**
 
-**X3**: Education (1 = graduate school; 2 = university; 3 = high school; 4 = others). - **Left it the same because the level of education seems gradual (the lower the score, the better the education**
+**X3**: Education (1 = graduate school; 2 = university; 3 = high school; 4 = others). - **Left it the same because the level of education seems gradual (the lower the score, the better the education**)
 
 **X4**: Marital status (1 = married; 2 = single; 3 = others).  - **Used binary dummy variables because no marital status is "better" than the others**
 
@@ -33,7 +34,7 @@ In order to find an optimal K, all odd values from 1 to 50 were tried out when f
 
 ## Conclusion
 
-With the value of K I achieved an error rate 0.183, which is similar to the achieved result found in the linked article (0.18).
+With the value of K = 37 an error rate 0.183 was achieved. It is similar to the result found in the linked article (0.18).
 I might continue this repo by finding other performance indicators such as area ratio and regression coefficient. Also at some point I'd like to give a shot of my own with ANN.
 
 
